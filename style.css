@@ -1,0 +1,42 @@
+h3:first-child {
+    color: pink;
+}
+#greycol {
+    color: grey;
+}
+p:only-child {
+    color: red;
+}
+h3:not(h3:first-child)+p {
+    color: green;
+}
+.yellow {
+    color: yellow;
+}
+a:link {
+    color: purple;
+}
+a:hover {
+    color: yellow;
+}
+.day:not(.day:first-child) a{
+    color: green;
+}
+input:disabled+label {
+    color: red;
+}
+input:checked+label {
+    color: green;
+}
+.day ul:last-child {
+    color: blue;
+}
+.day:nth-child(even) h3 {
+    color: orange;
+}
+.day:nth-child(odd) h3 {
+    color: brown;
+}
+form:only-child {
+    background-color: bisque;
+}
